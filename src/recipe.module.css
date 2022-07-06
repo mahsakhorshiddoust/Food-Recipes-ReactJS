@@ -1,0 +1,35 @@
+
+.recipe {
+    border-radius: 10px;
+    color: whitesmoke;
+    box-shadow: 0 5 20 rgba(71, 71, 71);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 40%;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.3px);
+    -webkit-backdrop-filter: blur(4.3px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    transition: all .8s ease;
+    text-decoration: none;
+
+
+}
+
+.recipe:hover{
+    transform: scale(1.07);
+}
+
+.image {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
